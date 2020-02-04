@@ -159,12 +159,15 @@ a {
 .nav .linkscontainer {
   width: 50%;
 }
-.nav a {
-  text-decoration: none;
-}
-.linkscontainer .links {
+.nav .linkscontainer .links {
   display: flex;
   justify-content: space-between;
+}
+.nav .linkscontainer a {
+  text-decoration: none;
+}
+.nav .linkscontainer a:hover {
+  color: white;
 }
 .headercontainer {
   display: flex;
@@ -177,8 +180,10 @@ a {
   display: flex;
   align-items: center;
   width: 50%;
-  line-height: 1.7;
   height: 300px;
+}
+.main-header p {
+  margin-top: 15px;
 }
 .headerblock {
   align-content: middle;
@@ -204,12 +209,16 @@ a {
   margin-top: 20px;
   width: 100%;
 }
-.signupbutton a {
+.main-header .signupbutton a {
   font-size: 2.5rem;
   text-decoration: none;
   border: 2px solid white;
   border-radius: 25px;
   width: 150px;
+}
+.main-header .signupbutton a:hover {
+  background-color: #e0dddd;
+  color: black;
 }
 .under-banner,
 .under-banner a {
@@ -249,19 +258,29 @@ footer {
   margin-top: 75px;
   margin-bottom: 15px;
 }
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  color: gray;
+}
 .calltoaction .bottomsignup {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   width: 100%;
 }
-.bottomsignup a {
+.calltoaction .bottomsignup a {
   font-size: 2.5rem;
   text-decoration: none;
   border: 2px solid black;
   border-radius: 25px;
   width: 150px;
   text-align: center;
+}
+.calltoaction .bottomsignup a:hover {
+  background-color: black;
+  color: #e0dddd;
 }
 .nav img {
   width: 12.5%;

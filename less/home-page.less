@@ -29,16 +29,22 @@
 
 .call-block {
     width: 50%;
-}
-
-.call-block h2 {
+    
+    h2 {
     text-align: center;
+}
 }
 
 footer {
     text-align: center;
     margin-top: 75px;
     margin-bottom: 15px;
+    a {
+    text-decoration: none;
+    &:hover {
+        color: gray;
+    }
+}
 }
 
 .calltoaction .bottomsignup {
@@ -46,13 +52,16 @@ footer {
     justify-content: center;
     margin-top: 20px;
     width: 100%;
-}
-
-.bottomsignup a {
+    a {
     font-size: 2.5rem;
     text-decoration: none;
     border: 2px solid black;
     border-radius: 25px;
     width: 150px;
     text-align: center;
+    &:hover {
+        background-color: black;
+        color: rgb(224, 221, 221);
+    }
+}
 }

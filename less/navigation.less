@@ -8,15 +8,16 @@
 
 .nav .linkscontainer {
     width: 50%;
-}
-
-.nav a {
+    .links {
+        display: flex;
+        justify-content: space-between;
+    }
+    a {
     text-decoration: none;
+    &:hover {
+        color: white;
+    }
 }
-
-.linkscontainer .links {
-    display: flex;
-    justify-content: space-between;
 }
 
 .headercontainer {
@@ -31,8 +32,11 @@
     display: flex;
     align-items: center;
     width: 50%;
-    line-height: 1.7;
     height: 300px;
+
+    p {
+    margin-top: 15px;
+}
 }
 
 .headerblock {
@@ -44,11 +48,10 @@
     background-image: url("/img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-}
-
-.above-banner img {
-    width: 12.5%;
-}
+        img, {
+        width: 12.5%;
+        }
+    }
 
 .above-banner h1, .above-banner h2, .above-banner p, .above-banner a {
     color: rgb(224, 221, 221);
@@ -59,12 +62,17 @@
     justify-content: center;
     margin-top: 20px;
     width: 100%;
+    a {
+        font-size: 2.5rem;
+        text-decoration: none;
+        border: 2px solid white;
+        border-radius: 25px;
+        width: 150px;
+        &:hover {
+            background-color: rgb(224, 221, 221);
+            color: black;
+        }
+    }
 }
 
-.signupbutton a {
-    font-size: 2.5rem;
-    text-decoration: none;
-    border: 2px solid white;
-    border-radius: 25px;
-    width: 150px;
-}
+
