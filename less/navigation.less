@@ -3,7 +3,7 @@
     justify-content: center;
     justify-content: space-around;
     align-items: center;
-    margin-top: 15px;
+    padding-top: 15px;
 }
 
 .nav .linkscontainer {
@@ -22,42 +22,45 @@
 .headercontainer {
     display: flex;
     justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: 30px;
+    height: 600px;
 }
 
 .main-header {
+    display: flex;
+    align-items: center;
     width: 50%;
-    justify-content: center;
-    align-content: middle;
-    margin-top: 130px;
     line-height: 1.7;
+    height: 300px;
 }
 
-.under-banner {
-    margin-top: 20px;
+.headerblock {
+    align-content: middle;
+}
+
+.above-banner {
+    height: 750px;
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .above-banner h1, .above-banner h2, .above-banner p, .above-banner a {
     color: rgb(224, 221, 221);
 }
 
-.signupbutton {
+.main-header .signupbutton {
     display: flex;
     justify-content: center;
-    border: 2px solid white;
-    border-radius: 25px;
     margin-top: 20px;
-    width: 50%;
-    margin-left: 200px;
+    width: 100%;
 }
 
 .signupbutton a {
     font-size: 2.5rem;
     text-decoration: none;
-}
-
-.under-banner, .under-banner a {
-    color: rgb(224, 221, 221);
-    margin-top: 250px;
+    border: 2px solid white;
+    border-radius: 25px;
+    width: 150px;
 }

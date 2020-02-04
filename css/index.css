@@ -136,7 +136,7 @@ table {
 html {
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
-  background-color: black;
+  background-color: #e0dddd;
 }
 h1 {
   font-size: 5.5rem;
@@ -154,7 +154,7 @@ a {
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  margin-top: 15px;
+  padding-top: 15px;
 }
 .nav .linkscontainer {
   width: 50%;
@@ -169,18 +169,25 @@ a {
 .headercontainer {
   display: flex;
   justify-content: center;
+  align-items: center;
   text-align: center;
-  margin-top: 30px;
+  height: 600px;
 }
 .main-header {
+  display: flex;
+  align-items: center;
   width: 50%;
-  justify-content: center;
-  align-content: middle;
-  margin-top: 130px;
   line-height: 1.7;
+  height: 300px;
 }
-.under-banner {
-  margin-top: 20px;
+.headerblock {
+  align-content: middle;
+}
+.above-banner {
+  height: 750px;
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .above-banner h1,
 .above-banner h2,
@@ -188,26 +195,68 @@ a {
 .above-banner a {
   color: #e0dddd;
 }
-.signupbutton {
+.main-header .signupbutton {
   display: flex;
   justify-content: center;
-  border: 2px solid white;
-  border-radius: 25px;
   margin-top: 20px;
-  width: 50%;
-  margin-left: 200px;
+  width: 100%;
 }
 .signupbutton a {
   font-size: 2.5rem;
   text-decoration: none;
+  border: 2px solid white;
+  border-radius: 25px;
+  width: 150px;
 }
 .under-banner,
 .under-banner a {
-  color: #e0dddd;
-  margin-top: 250px;
+  color: black;
 }
-body {
-  background-image: url("/img/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+.under-banner {
+  margin-top: 80px;
+}
+.firstrow {
+  display: flex;
+  justify-content: space-around;
+}
+.infoblock1,
+.infoblock2 {
+  width: 40%;
+  text-align: center;
+}
+.infoblock1 p,
+.infoblock2 p,
+.calltoaction p {
+  margin-top: 15px;
+}
+.calltoaction {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.call-block {
+  width: 50%;
+}
+.call-block h2 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 15px;
+}
+.calltoaction .bottomsignup {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.bottomsignup a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 150px;
+  text-align: center;
 }
