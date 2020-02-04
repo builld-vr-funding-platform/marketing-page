@@ -156,15 +156,38 @@ a {
   align-items: center;
   padding-top: 20px;
 }
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+  }
+}
 .nav .linkscontainer {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .nav .linkscontainer {
+    width: 85%;
+    text-align: center;
+    margin-top: 20px;
+  }
 }
 .nav .linkscontainer .links {
   display: flex;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .nav .linkscontainer .links {
+    flex-direction: column;
+  }
+}
 .nav .linkscontainer a {
   text-decoration: none;
+}
+@media (max-width: 500px) {
+  .nav .linkscontainer a {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+  }
 }
 .nav .linkscontainer a:hover {
   color: white;
@@ -176,11 +199,21 @@ a {
   text-align: center;
   height: 600px;
 }
+@media (max-width: 500px) {
+  .headercontainer {
+    height: 400px;
+  }
+}
 .main-header {
   display: flex;
   align-items: center;
   width: 50%;
   height: 300px;
+}
+@media (max-width: 500px) {
+  .main-header {
+    width: 85%;
+  }
 }
 .main-header p {
   margin-top: 15px;
@@ -231,10 +264,23 @@ a {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 500px) {
+  .firstrow {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .infoblock1,
 .infoblock2 {
   width: 40%;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .infoblock1,
+  .infoblock2 {
+    width: 85%;
+    padding-bottom: 50px;
+  }
 }
 .infoblock1 p,
 .infoblock2 p,
@@ -247,8 +293,18 @@ a {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .calltoaction {
+    margin-top: 5px;
+  }
+}
 .call-block {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .call-block {
+    width: 85%;
+  }
 }
 .call-block h2 {
   text-align: center;

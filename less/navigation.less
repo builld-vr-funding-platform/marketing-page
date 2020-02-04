@@ -4,16 +4,32 @@
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
+
+    @media @phone {
+        flex-direction: column;
+    }
 }
 
 .nav .linkscontainer {
     width: 50%;
+    @media @phone {
+        width: 85%;
+        text-align: center;
+        margin-top: 20px;
+    }
     .links {
         display: flex;
         justify-content: space-between;
+        @media @phone {
+            flex-direction: column;
+        }
     }
     a {
     text-decoration: none;
+    @media @phone {
+        margin-bottom: 10px;
+        font-size: 1.8rem;
+    }
     &:hover {
         color: white;
     }
@@ -26,6 +42,10 @@
     align-items: center;
     text-align: center;
     height: 600px;
+
+    @media @phone {
+        height: 400px;
+    }
 }
 
 .main-header {
@@ -33,6 +53,10 @@
     align-items: center;
     width: 50%;
     height: 300px;
+
+    @media @phone {
+        width: 85%;
+    }
 
     p {
     margin-top: 15px;
