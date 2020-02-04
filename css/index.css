@@ -263,13 +263,12 @@ footer {
   width: 150px;
   text-align: center;
 }
-body {
-  max-width: 95%;
-  background-color: blue;
+.nav img {
+  width: 12.5%;
 }
-.name {
-  color: blue;
+.nav {
+  background-color: black;
 }
-.foot {
-  color: red;
+.nav a {
+  color: #e0dddd;
 }
