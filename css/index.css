@@ -347,3 +347,38 @@ footer a:hover {
 .nav a {
   color: #e0dddd;
 }
+.meetTeam {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 80px;
+  border: 1px solid black;
+  text-align: center;
+}
+.teamContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border: 1px solid red;
+  justify-content: space-around;
+}
+.personOne {
+  text-align: center;
+}
+.personTwo {
+  text-align: center;
+}
+.personThree {
+  text-align: center;
+}
+.personFour {
+  text-align: center;
+}
+.personFive {
+  text-align: center;
+}
+.personSix {
+  text-align: center;
+}
