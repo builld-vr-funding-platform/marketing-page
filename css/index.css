@@ -139,3 +139,26 @@ p,
 a {
   font-size: 1.6rem;
 }
+.nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid green;
+  margin-top: 15px;
+}
+.nav .linkscontainer {
+  border: 1px solid red;
+  width: 50%;
+}
+.linkscontainer .links {
+  display: flex;
+  justify-content: space-between;
+}
+.headercontainer {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  border: 2px solid purple;
+}
