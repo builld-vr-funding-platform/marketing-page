@@ -1,3 +1,3 @@
-# Welcome to our marketing page!
+# Welcome to SIXR!
 
-Coming soon!
+Empowering users to change the world with VR technology.
