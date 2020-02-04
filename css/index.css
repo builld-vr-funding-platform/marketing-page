@@ -263,3 +263,12 @@ footer {
   width: 150px;
   text-align: center;
 }
+.nav img {
+  width: 12.5%;
+}
+.nav {
+  background-color: black;
+}
+.nav a {
+  color: #e0dddd;
+}
