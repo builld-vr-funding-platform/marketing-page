@@ -9,11 +9,21 @@
 .firstrow {
     display: flex;
     justify-content: space-around;
+
+    @media @phone {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .infoblock1, .infoblock2 {
     width: 40%;
     text-align: center;
+
+    @media @phone {
+        width: 85%;
+        padding-bottom: 50px;
+    }
 }
 
 .infoblock1 p, .infoblock2 p, .calltoaction p {
@@ -25,20 +35,34 @@
     margin-top: 100px;
     display: flex;
     justify-content: center;
+
+    @media @phone {
+        margin-top: 5px;
+    }
 }
 
 .call-block {
     width: 50%;
-}
 
-.call-block h2 {
+    @media @phone {
+        width: 85%;
+    }
+    
+    h2 {
     text-align: center;
+}
 }
 
 footer {
     text-align: center;
     margin-top: 75px;
     margin-bottom: 15px;
+    a {
+    text-decoration: none;
+    &:hover {
+        color: gray;
+    }
+}
 }
 
 .calltoaction .bottomsignup {
@@ -46,13 +70,16 @@ footer {
     justify-content: center;
     margin-top: 20px;
     width: 100%;
-}
-
-.bottomsignup a {
+    a {
     font-size: 2.5rem;
     text-decoration: none;
     border: 2px solid black;
     border-radius: 25px;
     width: 150px;
     text-align: center;
+    &:hover {
+        background-color: black;
+        color: rgb(224, 221, 221);
+    }
+}
 }

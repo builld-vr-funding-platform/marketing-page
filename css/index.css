@@ -156,15 +156,54 @@ a {
   align-items: center;
   padding-top: 20px;
 }
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  .nav {
+    flex-direction: column;
+  }
+}
 .nav .linkscontainer {
   width: 50%;
 }
-.nav a {
-  text-decoration: none;
+@media (max-width: 500px) {
+  .nav .linkscontainer {
+    width: 85%;
+    text-align: center;
+    margin-top: 20px;
+  }
 }
-.linkscontainer .links {
+.nav .linkscontainer .links {
   display: flex;
   justify-content: space-between;
+}
+@media (max-width: 500px) {
+  .nav .linkscontainer .links {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .nav .linkscontainer .links {
+    margin-top: 20px;
+  }
+}
+.nav .linkscontainer a {
+  text-decoration: none;
+}
+@media (max-width: 500px) {
+  .nav .linkscontainer a {
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    width: 60%;
+    border-bottom: 2px solid white;
+  }
+}
+.nav .linkscontainer a:hover {
+  color: white;
 }
 .headercontainer {
   display: flex;
@@ -173,12 +212,24 @@ a {
   text-align: center;
   height: 600px;
 }
+@media (max-width: 500px) {
+  .headercontainer {
+    height: 400px;
+  }
+}
 .main-header {
   display: flex;
   align-items: center;
   width: 50%;
-  line-height: 1.7;
   height: 300px;
+}
+@media (max-width: 500px) {
+  .main-header {
+    width: 85%;
+  }
+}
+.main-header p {
+  margin-top: 15px;
 }
 .headerblock {
   align-content: middle;
@@ -204,12 +255,16 @@ a {
   margin-top: 20px;
   width: 100%;
 }
-.signupbutton a {
+.main-header .signupbutton a {
   font-size: 2.5rem;
   text-decoration: none;
   border: 2px solid white;
   border-radius: 25px;
   width: 150px;
+}
+.main-header .signupbutton a:hover {
+  background-color: #e0dddd;
+  color: black;
 }
 .under-banner,
 .under-banner a {
@@ -222,10 +277,23 @@ a {
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 500px) {
+  .firstrow {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .infoblock1,
 .infoblock2 {
   width: 40%;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .infoblock1,
+  .infoblock2 {
+    width: 85%;
+    padding-bottom: 50px;
+  }
 }
 .infoblock1 p,
 .infoblock2 p,
@@ -238,8 +306,18 @@ a {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 500px) {
+  .calltoaction {
+    margin-top: 5px;
+  }
+}
 .call-block {
   width: 50%;
+}
+@media (max-width: 500px) {
+  .call-block {
+    width: 85%;
+  }
 }
 .call-block h2 {
   text-align: center;
@@ -249,19 +327,29 @@ footer {
   margin-top: 75px;
   margin-bottom: 15px;
 }
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  color: gray;
+}
 .calltoaction .bottomsignup {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   width: 100%;
 }
-.bottomsignup a {
+.calltoaction .bottomsignup a {
   font-size: 2.5rem;
   text-decoration: none;
   border: 2px solid black;
   border-radius: 25px;
   width: 150px;
   text-align: center;
+}
+.calltoaction .bottomsignup a:hover {
+  background-color: black;
+  color: #e0dddd;
 }
 .nav img {
   width: 12.5%;
