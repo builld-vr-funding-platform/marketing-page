@@ -126,30 +126,41 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
 html {
   font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: black;
 }
 h1 {
-  font-size: 4.5rem;
+  font-size: 5.5rem;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 p,
 a {
   font-size: 1.6rem;
+  line-height: 1.4;
 }
 .nav {
   display: flex;
   justify-content: center;
   justify-content: space-around;
   align-items: center;
-  border: 1px solid green;
   margin-top: 15px;
 }
 .nav .linkscontainer {
-  border: 1px solid red;
   width: 50%;
+}
+.nav a {
+  text-decoration: none;
 }
 .linkscontainer .links {
   display: flex;
@@ -159,6 +170,44 @@ a {
   display: flex;
   justify-content: center;
   text-align: center;
-  width: 100%;
-  border: 2px solid purple;
+  margin-top: 30px;
+}
+.main-header {
+  width: 50%;
+  justify-content: center;
+  align-content: middle;
+  margin-top: 130px;
+  line-height: 1.7;
+}
+.under-banner {
+  margin-top: 20px;
+}
+.above-banner h1,
+.above-banner h2,
+.above-banner p,
+.above-banner a {
+  color: #e0dddd;
+}
+.signupbutton {
+  display: flex;
+  justify-content: center;
+  border: 2px solid white;
+  border-radius: 25px;
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 200px;
+}
+.signupbutton a {
+  font-size: 2.5rem;
+  text-decoration: none;
+}
+.under-banner,
+.under-banner a {
+  color: #e0dddd;
+  margin-top: 250px;
+}
+body {
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
