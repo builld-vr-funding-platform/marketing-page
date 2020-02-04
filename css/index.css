@@ -126,16 +126,137 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v17/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
 html {
   font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e0dddd;
 }
 h1 {
-  font-size: 4.5rem;
+  font-size: 5.5rem;
 }
 h2 {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 p,
 a {
   font-size: 1.6rem;
+  line-height: 1.4;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 15px;
+}
+.nav .linkscontainer {
+  width: 50%;
+}
+.nav a {
+  text-decoration: none;
+}
+.linkscontainer .links {
+  display: flex;
+  justify-content: space-between;
+}
+.headercontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 600px;
+}
+.main-header {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  line-height: 1.7;
+  height: 300px;
+}
+.headerblock {
+  align-content: middle;
+}
+.above-banner {
+  height: 750px;
+  background-image: url("/img/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.above-banner h1,
+.above-banner h2,
+.above-banner p,
+.above-banner a {
+  color: #e0dddd;
+}
+.main-header .signupbutton {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.signupbutton a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  border: 2px solid white;
+  border-radius: 25px;
+  width: 150px;
+}
+.under-banner,
+.under-banner a {
+  color: black;
+}
+.under-banner {
+  margin-top: 80px;
+}
+.firstrow {
+  display: flex;
+  justify-content: space-around;
+}
+.infoblock1,
+.infoblock2 {
+  width: 40%;
+  text-align: center;
+}
+.infoblock1 p,
+.infoblock2 p,
+.calltoaction p {
+  margin-top: 15px;
+}
+.calltoaction {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+}
+.call-block {
+  width: 50%;
+}
+.call-block h2 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+  margin-top: 75px;
+  margin-bottom: 15px;
+}
+.calltoaction .bottomsignup {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 100%;
+}
+.bottomsignup a {
+  font-size: 2.5rem;
+  text-decoration: none;
+  border: 2px solid black;
+  border-radius: 25px;
+  width: 150px;
+  text-align: center;
 }
