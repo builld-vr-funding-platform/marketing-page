@@ -178,6 +178,7 @@ a {
 @media (max-width: 500px) {
   .nav .linkscontainer .links {
     flex-direction: column;
+    align-items: center;
   }
 }
 .nav .linkscontainer a {
@@ -187,6 +188,8 @@ a {
   .nav .linkscontainer a {
     margin-bottom: 10px;
     font-size: 1.8rem;
+    width: 60%;
+    border-bottom: 2px solid white;
   }
 }
 .nav .linkscontainer a:hover {
