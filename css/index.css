@@ -294,7 +294,7 @@ a {
 }
 .infoblock1,
 .infoblock2 {
-  width: 40%;
+  width: 35%;
   text-align: center;
 }
 @media (max-width: 500px) {
@@ -321,7 +321,7 @@ a {
   }
 }
 .call-block {
-  width: 50%;
+  width: 35%;
 }
 @media (max-width: 500px) {
   .call-block {
