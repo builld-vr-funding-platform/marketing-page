@@ -374,31 +374,19 @@ footer a:hover {
   border: 1px solid black;
   text-align: center;
 }
-.teamContainer {
+.rowOne {
   display: flex;
-  flex-wrap: wrap;
-  margin-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 40%;
-  border: 1px solid red;
-  justify-content: space-around;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px  solid red;
 }
-.personOne {
-  text-align: center;
+.rowTwo {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
 }
-.personTwo {
-  text-align: center;
-}
-.personThree {
-  text-align: center;
-}
-.personFour {
-  text-align: center;
-}
-.personFive {
-  text-align: center;
-}
-.personSix {
-  text-align: center;
+.rowThree {
+  display: flex;
+  width: 23%;
+  margin: 0 auto;
 }
