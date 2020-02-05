@@ -399,24 +399,79 @@ footer a:hover {
 }
 .rowOne {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 70%;
   margin: 0 auto;
   margin-top: 100px;
+}
+@media (max-width: 500px) {
+  .rowOne {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .rowOne {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .rowTwo {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 70%;
   margin: 0 auto;
   margin-top: 100px;
 }
+@media (max-width: 500px) {
+  .rowTwo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .rowTwo {
+    flex-direction: column;
+    align-items: center;
+  }
+}
 .rowThree {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 70%;
   margin: 0 auto;
   margin-top: 100px;
+}
+@media (max-width: 500px) {
+  .rowThree {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .rowThree {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.rowFour {
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+@media (max-width: 500px) {
+  .rowFour {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 800px) {
+  .rowFour {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 .personOne {
   text-align: center;
@@ -436,8 +491,15 @@ footer a:hover {
 .personSix {
   text-align: center;
 }
+.personSeven {
+  text-align: center;
+}
+.personEight {
+  text-align: center;
+}
 img {
   border-radius: 10%;
+  margin-bottom: 15px;
 }
 a {
   text-decoration: none;
