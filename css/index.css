@@ -167,7 +167,7 @@ a {
   }
 }
 .nav .linkscontainer {
-  width: 50%;
+  width: 60%;
 }
 @media (max-width: 500px) {
   .nav .linkscontainer {
@@ -247,6 +247,7 @@ a {
 }
 .above-banner img {
   width: 12.5%;
+  margin-top: 5px;
 }
 .above-banner h1,
 .above-banner h2,
@@ -261,7 +262,7 @@ a {
   width: 100%;
 }
 .main-header .getstartedbutton a {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   text-decoration: none;
   border-radius: 25px;
   width: 175px;
@@ -364,7 +365,7 @@ footer a:hover {
   }
 }
 .calltoaction .bottomgetstarted a {
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   text-decoration: none;
   border-radius: 25px;
   width: 175px;
