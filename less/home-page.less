@@ -33,8 +33,7 @@
 .calltoaction {
     width: 100%;
     margin-top: 100px;
-    display: flex;
-    justify-content: center;
+    .center();
 
     @media @phone {
         margin-top: 5px;
@@ -65,21 +64,16 @@ footer {
 }
 }
 
-.calltoaction .bottomsignup {
-    display: flex;
-    justify-content: center;
+.calltoaction .bottomgetstarted {
+    .center();
     margin-top: 20px;
     width: 100%;
     a {
-    font-size: 2.5rem;
-    text-decoration: none;
+    .getstartedbutton();
     border: 2px solid black;
-    border-radius: 25px;
-    width: 150px;
-    text-align: center;
     &:hover {
         background-color: black;
-        color: rgb(224, 221, 221);
+        color: @special-white;
     }
 }
 }

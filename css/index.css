@@ -249,20 +249,24 @@ a {
 .above-banner a {
   color: #e0dddd;
 }
-.main-header .signupbutton {
+.main-header .getstartedbutton {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   width: 100%;
 }
-.main-header .signupbutton a {
+.main-header .getstartedbutton a {
   font-size: 2.5rem;
   text-decoration: none;
-  border: 2px solid white;
   border-radius: 25px;
-  width: 150px;
+  width: 175px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
 }
-.main-header .signupbutton a:hover {
+.main-header .getstartedbutton a:hover {
   background-color: #e0dddd;
   color: black;
 }
@@ -333,21 +337,24 @@ footer a {
 footer a:hover {
   color: gray;
 }
-.calltoaction .bottomsignup {
+.calltoaction .bottomgetstarted {
   display: flex;
   justify-content: center;
   margin-top: 20px;
   width: 100%;
 }
-.calltoaction .bottomsignup a {
+.calltoaction .bottomgetstarted a {
   font-size: 2.5rem;
   text-decoration: none;
-  border: 2px solid black;
   border-radius: 25px;
-  width: 150px;
-  text-align: center;
+  width: 175px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
 }
-.calltoaction .bottomsignup a:hover {
+.calltoaction .bottomgetstarted a:hover {
   background-color: black;
   color: #e0dddd;
 }

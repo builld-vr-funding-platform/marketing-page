@@ -1,6 +1,5 @@
 .nav {
-    display: flex;
-    justify-content: center;
+    .center();
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
@@ -46,8 +45,7 @@
 }
 
 .headercontainer {
-    display: flex;
-    justify-content: center;
+    .center();
     align-items: center;
     text-align: center;
     height: 600px;
@@ -87,22 +85,18 @@
     }
 
 .above-banner h1, .above-banner h2, .above-banner p, .above-banner a {
-    color: rgb(224, 221, 221);
+    color: @special-white;
 }
 
-.main-header .signupbutton {
-    display: flex;
-    justify-content: center;
+.main-header .getstartedbutton {
+    .center();
     margin-top: 20px;
     width: 100%;
     a {
-        font-size: 2.5rem;
-        text-decoration: none;
+        .getstartedbutton();
         border: 2px solid white;
-        border-radius: 25px;
-        width: 150px;
         &:hover {
-            background-color: rgb(224, 221, 221);
+            background-color: @special-white;
             color: black;
         }
     }

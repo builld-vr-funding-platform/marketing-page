@@ -1,0 +1,17 @@
+//Centering 
+.center() {
+    display: flex;
+    justify-content: center;
+}
+
+// "Get Started" button
+
+.getstartedbutton(@width: 175px, @height: 50px, @fontsize: 2.5rem, @borderradius: 25px) {
+    font-size: @fontsize;
+    text-decoration: none;
+    border-radius: @borderradius;
+    width: @width;
+    height: @height;
+    .center();
+    align-items: center;
+}
