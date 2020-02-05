@@ -1,5 +1,5 @@
 .under-banner, .under-banner a {
-    color: black;
+    color: @special-black;
 }
 
 .under-banner {
@@ -19,7 +19,7 @@
 .infoblock1, .infoblock2 {
     width: 35%;
     text-align: center;
-    border-top: 2px solid black;
+    border-top: 2px solid @special-black;
     padding-top: 10px;
 
     @media @phone {
@@ -44,7 +44,7 @@
 
 .call-block {
     width: 35%;
-    border-top: 2px solid black;
+    border-top: 2px solid @special-black;
     padding-top: 10px;
 
     @media @phone {
@@ -70,7 +70,7 @@ footer {
 
 .calltoaction .bottomgetstarted {
     .center();
-    margin-top: 20px;
+    margin-top: 30px;
     width: 100%;
     @media @phone {
         margin-top: 30px;
@@ -80,10 +80,11 @@ footer {
     }
     a {
     .getstartedbutton();
-    border: 2px solid black;
+    border: 2px solid @special-black;
+    color: @special-white;
+    background-color: black;
     &:hover {
-        background-color: black;
-        color: @special-white;
+        background-color: @special-black;
     }
 }
 }
