@@ -270,14 +270,15 @@ a {
   justify-content: center;
   align-items: center;
   border: 2px solid white;
+  color: black;
+  background-color: #e0dddd;
 }
 .main-header .getstartedbutton a:hover {
-  background-color: #e0dddd;
-  color: black;
+  background-color: white;
 }
 .under-banner,
 .under-banner a {
-  color: black;
+  color: rgba(0, 0, 0, 0.774);
 }
 .under-banner {
   margin-top: 80px;
@@ -296,7 +297,7 @@ a {
 .infoblock2 {
   width: 35%;
   text-align: center;
-  border-top: 2px solid black;
+  border-top: 2px solid rgba(0, 0, 0, 0.774);
   padding-top: 10px;
 }
 @media (max-width: 500px) {
@@ -324,7 +325,7 @@ a {
 }
 .call-block {
   width: 35%;
-  border-top: 2px solid black;
+  border-top: 2px solid rgba(0, 0, 0, 0.774);
   padding-top: 10px;
 }
 @media (max-width: 500px) {
@@ -349,7 +350,7 @@ footer a:hover {
 .calltoaction .bottomgetstarted {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 30px;
   width: 100%;
 }
 @media (max-width: 500px) {
@@ -371,11 +372,12 @@ footer a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid black;
+  border: 2px solid rgba(0, 0, 0, 0.774);
+  color: #e0dddd;
+  background-color: black;
 }
 .calltoaction .bottomgetstarted a:hover {
-  background-color: black;
-  color: #e0dddd;
+  background-color: rgba(0, 0, 0, 0.774);
 }
 .nav img {
   width: 12.5%;
