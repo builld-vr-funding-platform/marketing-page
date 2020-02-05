@@ -262,7 +262,7 @@ a {
   width: 100%;
 }
 .main-header .getstartedbutton a {
-  font-size: 2.25rem;
+  font-size: 2rem;
   text-decoration: none;
   border-radius: 25px;
   width: 175px;
@@ -365,7 +365,7 @@ footer a:hover {
   }
 }
 .calltoaction .bottomgetstarted a {
-  font-size: 2.25rem;
+  font-size: 2rem;
   text-decoration: none;
   border-radius: 25px;
   width: 175px;
