@@ -296,6 +296,8 @@ a {
 .infoblock2 {
   width: 35%;
   text-align: center;
+  border-top: 2px solid black;
+  padding-top: 10px;
 }
 @media (max-width: 500px) {
   .infoblock1,
@@ -322,6 +324,8 @@ a {
 }
 .call-block {
   width: 35%;
+  border-top: 2px solid black;
+  padding-top: 10px;
 }
 @media (max-width: 500px) {
   .call-block {
@@ -347,6 +351,16 @@ footer a:hover {
   justify-content: center;
   margin-top: 20px;
   width: 100%;
+}
+@media (max-width: 500px) {
+  .calltoaction .bottomgetstarted {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 800px) {
+  .calltoaction .bottomgetstarted {
+    margin-top: 30px;
+  }
 }
 .calltoaction .bottomgetstarted a {
   font-size: 2.5rem;
