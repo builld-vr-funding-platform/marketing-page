@@ -390,22 +390,47 @@ footer a:hover {
   width: 50%;
   margin: 0 auto;
   padding-top: 80px;
-  border: 1px solid black;
   text-align: center;
 }
 .rowOne {
   display: flex;
-  width: 50%;
+  justify-content: space-evenly;
+  width: 70%;
   margin: 0 auto;
-  border: 1px  solid red;
+  margin-top: 100px;
 }
 .rowTwo {
   display: flex;
-  width: 50%;
+  justify-content: space-evenly;
+  width: 70%;
   margin: 0 auto;
+  margin-top: 100px;
 }
 .rowThree {
   display: flex;
-  width: 23%;
+  justify-content: space-evenly;
+  width: 70%;
   margin: 0 auto;
+  margin-top: 100px;
+}
+.personOne {
+  text-align: center;
+}
+.personTwo {
+  text-align: center;
+}
+.personThree {
+  text-align: center;
+}
+.personFour {
+  text-align: center;
+}
+.personFive {
+  text-align: center;
+}
+.personSix {
+  text-align: center;
+}
+img {
+  border-radius: 10%;
 }
