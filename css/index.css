@@ -299,7 +299,7 @@ a {
   width: 35%;
   text-align: center;
   border-top: 2px solid rgba(0, 0, 0, 0.774);
-  padding-top: 15px;
+  padding-top: 10px;
 }
 @media (max-width: 500px) {
   .infoblock1,
@@ -327,7 +327,7 @@ a {
 .call-block {
   width: 35%;
   border-top: 2px solid rgba(0, 0, 0, 0.774);
-  padding-top: 15px;
+  padding-top: 10px;
 }
 @media (max-width: 500px) {
   .call-block {
