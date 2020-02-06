@@ -13,7 +13,7 @@
         flex-direction: column;
     }
     img {
-    width: 12.5%;
+    width: 150px;
     margin-top: 5px;
 }
     a{
@@ -61,7 +61,7 @@
     height: 600px;
 
     @media @phone {
-        height: 400px;
+        height: 350px;
     }
 }
 
@@ -94,9 +94,17 @@
 .above-banner {
     height: 825px;
     background-image: url("/img/background.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     box-shadow: 0 3px 6px 1px rgba(80, 78, 80, 1.8);
+
+    @media @tablet {
+        background-image: url("/img/tabletbackground.jpg");
+    }
+
+    @media @phone {
+        background-image: url("/img/phonebackground.jpg");
+    }
     }
 
 .above-banner h1, .above-banner h2, .above-banner p, .above-banner a {
