@@ -136,7 +136,7 @@ table {
 html {
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
-  background-color: #e0dddd;
+  background-color: #F8F8FF;
 }
 h1 {
   font-size: 5.5rem;
@@ -199,11 +199,11 @@ a {
     margin-bottom: 10px;
     font-size: 1.5rem;
     width: 60%;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #F8F8FF;
   }
 }
 .nav .linkscontainer a:hover {
-  color: white;
+  color: lightgray;
 }
 .headercontainer {
   display: flex;
@@ -253,7 +253,7 @@ a {
 .above-banner h2,
 .above-banner p,
 .above-banner a {
-  color: #e0dddd;
+  color: #F8F8FF;
 }
 .main-header .getstartedbutton {
   display: flex;
@@ -270,12 +270,25 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid white;
   color: black;
-  background-color: #e0dddd;
+  background-color: #F8F8FF;
 }
 .main-header .getstartedbutton a:hover {
-  background-color: white;
+  background-color: lightgray;
+}
+footer {
+  text-align: center;
+  margin-top: 75px;
+  background: #010101;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+footer a {
+  text-decoration: none;
+  color: #F8F8FF !important;
+}
+footer a:hover {
+  color: lightgray !important;
 }
 .under-banner,
 .under-banner a {
@@ -298,8 +311,6 @@ a {
 .infoblock2 {
   width: 35%;
   text-align: center;
-  border-top: 2px solid rgba(0, 0, 0, 0.774);
-  padding-top: 10px;
 }
 @media (max-width: 500px) {
   .infoblock1,
@@ -326,8 +337,6 @@ a {
 }
 .call-block {
   width: 35%;
-  border-top: 2px solid rgba(0, 0, 0, 0.774);
-  padding-top: 10px;
 }
 @media (max-width: 500px) {
   .call-block {
@@ -336,17 +345,6 @@ a {
 }
 .call-block h2 {
   text-align: center;
-}
-footer {
-  text-align: center;
-  margin-top: 75px;
-  margin-bottom: 15px;
-}
-footer a {
-  text-decoration: none;
-}
-footer a:hover {
-  color: gray;
 }
 .calltoaction .bottomgetstarted {
   display: flex;
@@ -374,7 +372,7 @@ footer a:hover {
   justify-content: center;
   align-items: center;
   border: 2px solid rgba(0, 0, 0, 0.774);
-  color: #e0dddd;
+  color: #F8F8FF;
   background-color: #010101;
 }
 .calltoaction .bottomgetstarted a:hover {
@@ -389,13 +387,18 @@ footer a:hover {
   padding-bottom: 15px;
 }
 .nav a {
-  color: #e0dddd;
+  color: #F8F8FF;
 }
 .meetTeam {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
-  padding-top: 80px;
+  margin-top: 80px;
   text-align: center;
+}
+@media (max-width: 500px) {
+  .meetTeam {
+    width: 70%;
+  }
 }
 .rowOne {
   display: flex;
