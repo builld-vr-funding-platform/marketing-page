@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0f7720c0-c4e2-467a-bec8-1a5077ba6a4c/deploy-status)](https://app.netlify.com/sites/sixrvr/deploys)
+
 # Welcome to SIXR!
 
 Empowering users to change the world with VR technology.
