@@ -473,27 +473,13 @@ footer a:hover {
     align-items: center;
   }
 }
-.personOne {
-  text-align: center;
-}
-.personTwo {
-  text-align: center;
-}
-.personThree {
-  text-align: center;
-}
-.personFour {
-  text-align: center;
-}
-.personFive {
-  text-align: center;
-}
-.personSix {
-  text-align: center;
-}
-.personSeven {
-  text-align: center;
-}
+.personOne,
+.personTwo,
+.personThree,
+.personFour,
+.personFive,
+.personSix,
+.personSeven,
 .personEight {
   text-align: center;
 }
