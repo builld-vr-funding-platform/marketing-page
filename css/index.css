@@ -395,6 +395,11 @@ footer a:hover {
   margin-top: 80px;
   text-align: center;
 }
+@media (max-width: 500px) {
+  .meetTeam {
+    width: 70%;
+  }
+}
 .rowOne {
   display: flex;
   justify-content: space-around;
