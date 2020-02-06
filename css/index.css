@@ -223,7 +223,7 @@ a {
 }
 @media (max-width: 500px) {
   .headercontainer {
-    height: 400px;
+    height: 350px;
   }
 }
 .main-header {
@@ -255,6 +255,11 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 0 3px 6px 1px #504e50;
+}
+@media (max-width: 500px) {
+  .above-banner {
+    height: 750px;
+  }
 }
 .above-banner h1,
 .above-banner h2,
