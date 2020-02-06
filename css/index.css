@@ -252,13 +252,18 @@ a {
 .above-banner {
   height: 825px;
   background-image: url("/img/background.jpg");
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
   box-shadow: 0 3px 6px 1px #504e50;
 }
+@media (max-width: 800px) {
+  .above-banner {
+    background-image: url("/img/tabletbackground.jpg");
+  }
+}
 @media (max-width: 500px) {
   .above-banner {
-    height: 750px;
+    background-image: url("/img/phonebackground.jpg");
   }
 }
 .above-banner h1,

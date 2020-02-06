@@ -94,12 +94,16 @@
 .above-banner {
     height: 825px;
     background-image: url("/img/background.jpg");
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     box-shadow: 0 3px 6px 1px rgba(80, 78, 80, 1.8);
 
+    @media @tablet {
+        background-image: url("/img/tabletbackground.jpg");
+    }
+
     @media @phone {
-        height: 750px;
+        background-image: url("/img/phonebackground.jpg");
     }
     }
 
