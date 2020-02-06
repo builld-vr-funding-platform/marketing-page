@@ -212,7 +212,7 @@ a {
   }
 }
 .nav .linkscontainer a:hover {
-  color: lightgray;
+  color: #33C6F4;
 }
 .headercontainer {
   display: flex;
