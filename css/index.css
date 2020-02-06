@@ -395,10 +395,12 @@ footer a:hover {
   color: #e0dddd;
 }
 .meetTeam {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
-  padding-top: 80px;
+  margin-top: 80px;
   text-align: center;
+  border-top: 2px solid rgba(0, 0, 0, 0.774);
+  padding-top: 10px;
 }
 .rowOne {
   display: flex;
