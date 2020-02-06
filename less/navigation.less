@@ -1,5 +1,7 @@
 .nav {
     .center();
+    background-color: @background-black;
+    padding-bottom: 15px;
     justify-content: space-around;
     align-items: center;
     padding-top: 20px;
@@ -10,7 +12,15 @@
     @media @tablet {
         flex-direction: column;
     }
+    img {
+    width: 12.5%;
+    margin-top: 5px;
 }
+    a{
+    color: @special-white;
+}
+}
+
 
 .nav .linkscontainer {
     width: 60%;
@@ -85,10 +95,6 @@
     background-image: url("/img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-        img {
-        width: 12.5%;
-        margin-top: 5px;
-        }
     }
 
 .above-banner h1, .above-banner h2, .above-banner p, .above-banner a {

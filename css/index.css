@@ -152,6 +152,8 @@ a {
 .nav {
   display: flex;
   justify-content: center;
+  background-color: #010101;
+  padding-bottom: 15px;
   justify-content: space-around;
   align-items: center;
   padding-top: 20px;
@@ -165,6 +167,13 @@ a {
   .nav {
     flex-direction: column;
   }
+}
+.nav img {
+  width: 12.5%;
+  margin-top: 5px;
+}
+.nav a {
+  color: #F8F8FF;
 }
 .nav .linkscontainer {
   width: 60%;
@@ -244,10 +253,6 @@ a {
   background-image: url("/img/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-}
-.above-banner img {
-  width: 12.5%;
-  margin-top: 5px;
 }
 .above-banner h1,
 .above-banner h2,
@@ -378,16 +383,8 @@ footer a:hover {
 .calltoaction .bottomgetstarted a:hover {
   background-color: rgba(0, 0, 0, 0.774);
 }
-.nav img {
-  width: 12.5%;
-  margin-top: 5px;
-}
-.nav {
-  background-color: #010101;
-  padding-bottom: 15px;
-}
-.nav a {
-  color: #F8F8FF;
+.aboutnav {
+  box-shadow: 0 3px 6px 1px #504e50;
 }
 .meetTeam {
   width: 60%;
