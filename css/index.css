@@ -136,7 +136,7 @@ table {
 html {
   font-size: 62.5%;
   font-family: 'Open Sans', sans-serif;
-  background-color: #e0dddd;
+  background-color: #F8F8FF;
 }
 h1 {
   font-size: 5.5rem;
@@ -199,11 +199,11 @@ a {
     margin-bottom: 10px;
     font-size: 1.5rem;
     width: 60%;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #F8F8FF;
   }
 }
 .nav .linkscontainer a:hover {
-  color: white;
+  color: lightgray;
 }
 .headercontainer {
   display: flex;
@@ -253,7 +253,7 @@ a {
 .above-banner h2,
 .above-banner p,
 .above-banner a {
-  color: #e0dddd;
+  color: #F8F8FF;
 }
 .main-header .getstartedbutton {
   display: flex;
@@ -270,12 +270,11 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid white;
   color: black;
-  background-color: #e0dddd;
+  background-color: #F8F8FF;
 }
 .main-header .getstartedbutton a:hover {
-  background-color: white;
+  background-color: lightgray;
 }
 footer {
   text-align: center;
@@ -286,10 +285,10 @@ footer {
 }
 footer a {
   text-decoration: none;
-  color: #e0dddd !important;
+  color: #F8F8FF !important;
 }
 footer a:hover {
-  color: gray;
+  color: lightgray !important;
 }
 .under-banner,
 .under-banner a {
@@ -373,7 +372,7 @@ footer a:hover {
   justify-content: center;
   align-items: center;
   border: 2px solid rgba(0, 0, 0, 0.774);
-  color: #e0dddd;
+  color: #F8F8FF;
   background-color: #010101;
 }
 .calltoaction .bottomgetstarted a:hover {
@@ -388,7 +387,7 @@ footer a:hover {
   padding-bottom: 15px;
 }
 .nav a {
-  color: #e0dddd;
+  color: #F8F8FF;
 }
 .meetTeam {
   width: 60%;
