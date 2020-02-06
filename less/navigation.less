@@ -83,6 +83,7 @@
     align-content: middle;
     h2 {
     font-size: 6rem;
+    font-weight: 600;
     }
     p {
     font-size: 2rem;
@@ -95,6 +96,7 @@
     background-image: url("/img/background.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    box-shadow: 0 3px 6px 1px rgba(80, 78, 80, 1.8);
     }
 
 .above-banner h1, .above-banner h2, .above-banner p, .above-banner a {
@@ -110,7 +112,8 @@
         color: black;
         background-color: @special-white;
         &:hover {
-            background-color: lightgray;;
+            background-color: @orange;
+            color: @special-white;
         }
     }
 }
