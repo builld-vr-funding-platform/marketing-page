@@ -212,7 +212,7 @@ a {
   }
 }
 .nav .linkscontainer a:hover {
-  color: #33C6F4;
+  color: lightgray;
 }
 .headercontainer {
   display: flex;
@@ -292,7 +292,7 @@ a {
   background-color: #F8F8FF;
 }
 .main-header .getstartedbutton a:hover {
-  background-color: #FEBF0F;
+  background-color: #EE1A74;
   color: #F8F8FF;
 }
 footer {
@@ -307,7 +307,7 @@ footer a {
   color: #F8F8FF !important;
 }
 footer a:hover {
-  color: #33C6F4 !important;
+  color: lightgray !important;
 }
 .under-banner,
 .under-banner a {
@@ -401,8 +401,9 @@ footer a:hover {
   background-color: #010101;
 }
 .calltoaction .bottomgetstarted a:hover {
-  background-color: #5BBB47;
-  border: 2px solid #5BBB47;
+  background-color: #F8F8FF;
+  border: 2px solid rgba(0, 0, 0, 0.774);
+  color: rgba(0, 0, 0, 0.774);
 }
 .aboutnav {
   box-shadow: 0 3px 6px 1px #504e50;
