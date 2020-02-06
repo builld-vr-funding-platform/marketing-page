@@ -5,7 +5,7 @@
 Empowering users to change the world with VR technology.
 
 <h3>
-  Visit us at <a href="https://marketing-page-alpha.now.sh/">https://sixrvr.netlify.com/</a>
+  Visit us at <a href="https://sixrvr.netlify.com/">https://sixrvr.netlify.com/</a>
 </h3>
 
 ## LESS preprocessing commands:
