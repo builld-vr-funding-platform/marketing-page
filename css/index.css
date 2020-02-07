@@ -462,6 +462,9 @@ img {
   border-radius: 10%;
   margin-bottom: 15px;
 }
+img:hover {
+  filter: brightness(1.1);
+}
 a {
   text-decoration: none;
 }
